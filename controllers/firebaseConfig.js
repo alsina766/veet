@@ -1,17 +1,11 @@
-if (process.env.NODE_RUN !== "production") {
-  require("dotenv").config();
-}
-
-const env = process.env;
-
 const firebaseConfig = {
     apiKey: "AIzaSyBVAkw39sn2FEqG1NiunuFWl96pXwDBKPk",
-    authDomain: env.AUTH_DOMAIN,
-    projectId: env.PROJECT_ID,
-    storageBucket: env.STORAGE_BUCKET,
-    messagingSenderId: env.MESSAGING_SENDERID,
-    appId: env.APP_ID,
-    measurementId: env.MEASUREMENT_ID
+    authDomain: "veet-250f9.firebaseapp.com",
+    projectId: "veet-250f9",
+    storageBucket: "veet-250f9.appspot.com",
+    messagingSenderId: "219388711067",
+    appId: "1:219388711067:web:38e44cb91489974e80363e",
+    measurementId: "G-ZG0LLQXQ6K"
   };
 
   module.exports = firebaseConfig;
