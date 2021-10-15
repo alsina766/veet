@@ -1,0 +1,23 @@
+/* Accounts */
+.form-contain {
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.form-contain > h3 {
+    margin-bottom: 20px;
+}
+
+.form {
+    width: 90vw;
+    height: 68vh;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form > input {
+    height: 40px;
+    width: 300px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+
+/* Homepage  */
+.home {
+    height: 99%;
+}
+
+/* Display One */
+.text {
+    text-align: center;
+    padding-top: 3.75rem;
+}
+
+.text > h3 {
+    font-weight: 900;
+    font-size: 2.8125rem;
+}
+
+.text > h1 {
+    color: #49956C;
+    font-weight: 900;
+    font-size: 4.0625rem;
+    margin-bottom: 5px;
+}
+
+.text > p {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.links > a {
+    border: 2px solid #EF5F39;
+    border-radius: 12px;
+    background-color: #EF5F39;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 2px 6px;
+    padding-bottom: 4px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+/* Display Two */
+.display-two {
+    background-color: #49956C;
+    border-radius: 20px;
+    padding-top: 40px;
+    margin: 80px auto;
+    text-align: center;
+    width: 50vw;
+    height: 40vh;
+}
+
+.display-two > h3 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.d2-text {
+    display: flex;
+    width: auto;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.phone {
+    background-color: #fff;
+    border-radius: 50px;
+    width: 150px;
+    height: 80px;
+    margin: 5px;
+}
+
+.android > img {
+    margin-top: 8px;
+    width: 30px;
+    height: auto;
+}
+
+.iphone > img {
+    margin-top: 6px;
+    margin-left: -6px;
+    width: 70px;
+    height: auto;
+}
+
