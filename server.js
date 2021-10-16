@@ -32,6 +32,6 @@ initializeApp(FirebaseConfig);
 
 app.use("/", mainRouter);
 
-app.listen(process.env.PORT||3000, () => {
+app.listen(process.env.PORT||21876, () => {
     console.log("App listening on port " + process.env.PORT);
 });
